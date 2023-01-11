@@ -1,0 +1,11 @@
+var data = [10,1000,1,59.10,120,4,-1,30];
+//get the highet number
+const highest = Math.max(...data);
+
+// get the lowest number
+const lowest = Math.min(...data);
+
+//output of highest and lowest
+console.log("Highest Number: " + highest); 
+
+console.log("Lowest Number: " + lowest); 
